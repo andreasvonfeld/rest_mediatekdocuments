@@ -217,13 +217,18 @@ class MyAccessBDD extends AccessBDD {
      * @return array|null
      */
     private function selectAllLivres() : ?array{
-        $requete = "Select l.id, l.ISBN, l.auteur, d.titre, d.image, l.collection, ";
-        $requete .= "d.idrayon, d.idpublic, d.idgenre, g.libelle as genre, p.libelle as lePublic, r.libelle as rayon ";
-        $requete .= "from livre l join document d on l.id=d.id ";
-        $requete .= "join genre g on g.id=d.idGenre ";
-        $requete .= "join public p on p.id=d.idPublic ";
-        $requete .= "join rayon r on r.id=d.idRayon ";
-        $requete .= "order by titre ";		
+        $columns = "l.id, l.ISBN, l.auteur, d.titre, d.image, l.collection, 
+                d.idrayon, d.idpublic, d.idgenre, 
+                g.libelle as genre, p.libelle as lePublic, r.libelle as rayon";
+
+        $joins = "from livre l 
+              join document d on l.id = d.id 
+              join genre g on g.id = d.idGenre 
+              join public p on p.id = d.idPublic 
+              join rayon r on r.id = d.idRayon";
+
+        $requete = "SELECT $columns $joins ORDER BY d.titre"; 
+
         return $this->conn->queryBDD($requete);
     }	
 

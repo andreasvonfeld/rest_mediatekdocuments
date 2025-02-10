@@ -45,7 +45,8 @@ class Connexion {
      * @param string $port
      * @return Connexion instance unique de la classe
      */
-    public static function getInstance(string $login, string $pwd, string $bd, string $server, string $port) : Connexion{
+    public static function getInstance(string $login, string $pwd, 
+            string $bd, string $server, string $port) : Connexion{
         if(self::$instance === null){
             self::$instance = new Connexion($login, $pwd, $bd, $server, $port);
         }

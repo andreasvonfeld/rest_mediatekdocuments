@@ -33,7 +33,7 @@ class Url {
      * (GET, PUT, POST, DELETE)
      * @var string
      */
-    private $methodeHTTP;
+    //private $methodeHTTP;
     
     /**
      * constructeur privé
@@ -80,6 +80,8 @@ class Url {
         switch ($format){
             case "json" : 
                 $variable = $variable ? json_decode($variable, true) : null;
+                break;
+            default:
                 break;
         }
         return $variable;
