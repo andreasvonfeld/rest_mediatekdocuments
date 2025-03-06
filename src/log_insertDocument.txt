@@ -1,0 +1,614 @@
+
+Champs reçus: 
+Champs reçus: 
+Champs reçus: 
+Champs reçus: Array
+(
+    [libelle] => Actualités
+)
+
+Champs reçus: Array
+(
+    [libelle] => Actualités
+)
+
+Champs reçus: Array
+(
+    [libelle] => Actualités
+)
+
+Champs reçus: Array
+(
+    [libelle] => Actualités
+)
+
+champs=%7B%22libelle%22%3A%22Actualit%C3%A9s%22%7D
+
+champs=%7B%22libelle%22%3A%22Actualit%C3%A9s%22%7D
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%2234334%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"34334","titre":"test","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22344343%22%2C%22titre%22%3A%22testtes%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"344343","titre":"testtes","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22353533453%22%2C%22titre%22%3A%22teetse%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"353533453","titre":"teetse","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+champs=%7B%22libelle%22%3A%22Actualit%C3%A9s%22%7D
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%224343%22%2C%22titre%22%3A%22tet%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"4343","titre":"tet","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22libelle%22%3A%22Actualit%C3%A9s%22%7D
+champs=%7B%22libelle%22%3A%22Bande%20Dessin%C3%A9es%22%7D
+champs=%7B%22libelle%22%3A%22Bande%20Dessinn%C3%A9es%22%7D
+champs=%7B%22libelle%22%3A%22Bande%20dessin%C3%A9e%22%7D
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22343434%22%2C%22titre%22%3A%22trtrs%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"343434","titre":"trtrs","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22343444343%22%2C%22titre%22%3A%22egfgsre%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"343444343","titre":"egfgsre","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22344344343434343%22%2C%22titre%22%3A%22ssgegs%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"344344343434343","titre":"ssgegs","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223535353533553%22%2C%22titre%22%3A%22rgdsgs%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3535353533553","titre":"rgdsgs","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22343434%22%2C%22titre%22%3A%22rgsgeregs%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"343434","titre":"rgsgeregs","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223434343%22%2C%22titre%22%3A%22tsrt%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%22%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3434343","titre":"tsrt","idRayon":"BD001","idPublic":"00004","idGenre":"","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223253535563%22%2C%22titre%22%3A%22testse%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3253535563","titre":"testse","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223344334%22%2C%22titre%22%3A%22tste%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%22%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3344334","titre":"tste","idRayon":"BD001","idPublic":"00004","idGenre":"","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223343324%22%2C%22titre%22%3A%22tesfsse%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%22%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3343324","titre":"tesfsse","idRayon":"BD001","idPublic":"00004","idGenre":"","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%2224342342%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"24342342","titre":"test","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22343443%22%2C%22titre%22%3A%22tstsete%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"343443","titre":"tstsete","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22533535%22%2C%22titre%22%3A%22rgsr%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"533535","titre":"rgsr","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%2235335%22%2C%22titre%22%3A%22testts%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"35335","titre":"testts","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22343344343%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"343344343","titre":"test","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+----------------------------680687754289527373608698
+Content-Disposition: form-data; name="champs"
+
+{"libelle":"BD Adultes"}
+----------------------------680687754289527373608698--
+
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%223535353%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3535353","titre":"test","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22344343434343%22%2C%22titre%22%3A%22eff%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%22Genre%20non%20trouv%C3%A9%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"344343434343","titre":"eff","idRayon":"BD001","idPublic":"00004","idGenre":"Genre non trouv\u00e9","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%2232322%22%2C%22titre%22%3A%22tessgfsees%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210018%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"32322","titre":"tessgfsees","idRayon":"BD001","idPublic":"00004","idGenre":"10018","image":""}
+Résultat de l'insertion : SUCCÈS
+
+
+
+
+
+
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+
+
+champs=%7B%22libelle%22%3A%22BD%20Adultes%22%7D
+champs=%7B%22libelle%22%3A%22Bande%20dessin%C3%A9e%22%7D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22libelle%22%3A%22Bande%20dessin%C3%A9e%22%7D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+champs=%7B%22id%22%3A%22353353%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22Rayon%20non%20trouv%C3%A9%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"353353","titre":"test","idRayon":"Rayon non trouv\u00e9","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : ÉCHEC
+
+
+
+
+champs=%7B%22id%22%3A%22353353%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22Rayon%20non%20trouv%C3%A9%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"353353","titre":"test","idRayon":"Rayon non trouv\u00e9","idPublic":"00004","idGenre":"10007","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%22344344343%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"344344343","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22353553%22%2C%22titre%22%3A%22Ceci%20est%20un%20test%22%2C%22idRayon%22%3A%22Rayon%20non%20trouv%C3%A9%22%2C%22idPublic%22%3A%22Public%20non%20trouv%C3%A9%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"353553","titre":"Ceci est un test","idRayon":"Rayon non trouv\u00e9","idPublic":"Public non trouv\u00e9","idGenre":"10007","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%22353553%22%2C%22titre%22%3A%22Ceci%20est%20un%20test%22%2C%22idRayon%22%3A%22PR002%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"353553","titre":"Ceci est un test","idRayon":"PR002","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2235335%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22Rayon%20non%20trouv%C3%A9%22%2C%22idPublic%22%3A%2200001%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"35335","titre":"test","idRayon":"Rayon non trouv\u00e9","idPublic":"00001","idGenre":"10001","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%223352532%22%2C%22titre%22%3A%22testt%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3352532","titre":"testt","idRayon":"BD001","idPublic":"00004","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%223352532%22%2C%22titre%22%3A%22testt%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210012%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3352532","titre":"testt","idRayon":"BD001","idPublic":"00004","idGenre":"10012","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%2299999999%22%2C%22titre%22%3A%22testt%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210012%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"99999999","titre":"testt","idRayon":"BD001","idPublic":"00004","idGenre":"10012","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22924942924%22%2C%22titre%22%3A%22caca%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210009%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"924942924","titre":"caca","idRayon":"BD001","idPublic":"00004","idGenre":"10009","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2230034%22%2C%22titre%22%3A%22Germinal%22%2C%22idRayon%22%3A%22DV004%22%2C%22idPublic%22%3A%22%22%2C%22idGenre%22%3A%2210006%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"30034","titre":"Germinal","idRayon":"DV004","idPublic":"","idGenre":"10006","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%2230034%22%2C%22titre%22%3A%22Germinal%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%22%22%2C%22idGenre%22%3A%2210013%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"30034","titre":"Germinal","idRayon":"BD001","idPublic":"","idGenre":"10013","image":""}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%2230003%22%2C%22titre%22%3A%22Germinal%22%2C%22idRayon%22%3A%22DV004%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210003%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"30003","titre":"Germinal","idRayon":"DV004","idPublic":"00002","idGenre":"10003","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%223434343%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3434343","titre":"test","idRayon":"DF001","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22234423%22%2C%22titre%22%3A%22Test%22%2C%22idRayon%22%3A%22JN001%22%2C%22idPublic%22%3A%2200001%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"234423","titre":"Test","idRayon":"JN001","idPublic":"00001","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2232424%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210003%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"32424","titre":"test","idRayon":"BL001","idPublic":"00002","idGenre":"10003","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2234442324%22%2C%22titre%22%3A%22image%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200003%22%2C%22idGenre%22%3A%2210003%22%2C%22image%22%3A%22C%3A%5C%5CUsers%5C%5CAndr%C3%A9as%5C%5CDesktop%5C%5Ccobblemon.png%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"34442324","titre":"image","idRayon":"BL001","idPublic":"00003","idGenre":"10003","image":"C:\\Users\\Andr\u00e9as\\Desktop\\cobblemon.png"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%222424%22%2C%22titre%22%3A%22del%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"2424","titre":"del","idRayon":"DF001","idPublic":"00002","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2222222222222%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22JN001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"22222222222","titre":"test","idRayon":"JN001","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22222222444%22%2C%22titre%22%3A%22testR%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"222222444","titre":"testR","idRayon":"DF001","idPublic":"00002","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2222222434%22%2C%22titre%22%3A%22testR%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"22222434","titre":"testR","idRayon":"DF001","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2223242%22%2C%22titre%22%3A%22testR%22%2C%22idRayon%22%3A%22JN001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"23242","titre":"testR","idRayon":"JN001","idPublic":"00002","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22999%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"999","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2222222%22%2C%22titre%22%3A%22Test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"22222","titre":"Test","idRayon":"BL001","idPublic":"00002","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22999%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"999","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22777777%22%2C%22titre%22%3A%22Test%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200001%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"777777","titre":"Test","idRayon":"DF001","idPublic":"00001","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%225555%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200001%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"5555","titre":"test","idRayon":"BL001","idPublic":"00001","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2255%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"55","titre":"test","idRayon":"DF001","idPublic":"00002","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%221234%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22JN001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"1234","titre":"test","idRayon":"JN001","idPublic":"00002","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%222345%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22DF001%22%2C%22idPublic%22%3A%2200003%22%2C%22idGenre%22%3A%2210001%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"2345","titre":"test","idRayon":"DF001","idPublic":"00003","idGenre":"10001","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2211111%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210003%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"11111","titre":"test","idRayon":"BL001","idPublic":"00002","idGenre":"10003","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%223333%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200004%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3333","titre":"test","idRayon":"BL001","idPublic":"00004","idGenre":"10007","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%2244444%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200003%22%2C%22idGenre%22%3A%2210003%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"44444","titre":"test","idRayon":"BL001","idPublic":"00003","idGenre":"10003","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%222322%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22JN001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210009%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"2322","titre":"test","idRayon":"JN001","idPublic":"00002","idGenre":"10009","image":""}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22424242%22%2C%22titre%22%3A%22test%22%2C%22idRayon%22%3A%22BD001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210007%22%2C%22image%22%3A%22C%3A%5C%5CUsers%5C%5CAndr%C3%A9as%5C%5CDesktop%5C%5C108623b0.png%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"424242","titre":"test","idRayon":"BD001","idPublic":"00002","idGenre":"10007","image":"C:\\Users\\Andr\u00e9as\\Desktop\\108623b0.png"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%223242%22%2C%22titre%22%3A%22test5%22%2C%22idRayon%22%3A%22BL001%22%2C%22idPublic%22%3A%2200002%22%2C%22idGenre%22%3A%2210012%22%2C%22image%22%3A%22%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"3242","titre":"test5","idRayon":"BL001","idPublic":"00002","idGenre":"10012","image":""}
+Résultat de l'insertion : SUCCÈS

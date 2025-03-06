@@ -1,0 +1,4 @@
+[2025-03-03 16:27:28] 📌 selectTuplesOneTable() appelée : Table = document, Champs = null
+[2025-03-03 16:27:28] 📝 Requête exécutée : select * from document;
+[2025-03-03 16:28:14] 📌 selectTuplesOneTable() appelée : Table = document, Champs = {"id":"32424"}
+[2025-03-03 16:28:14] 📝 Requête exécutée : select * from document where id=:id avec paramètres : {"id":"32424"}

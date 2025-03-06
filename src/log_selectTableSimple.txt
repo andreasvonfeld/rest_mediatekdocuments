@@ -1,0 +1,200 @@
+GET reçu : {"table":"genre","libelle":"Actualites"}
+POST reçu : []
+INPUT brut : 
+Filtrage sur libelle = Actualites
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre","libelle":"Aventures"}
+INPUT brut : 
+Filtrage sur libelle = Aventures
+GET reçu : {"table":"public","libelle":"Tous%20publics"}
+INPUT brut : 
+Filtrage sur libelle = Tous%20publics
+GET reçu : {"table":"rayon","libelle":"DVD%20films"}
+INPUT brut : 
+Filtrage sur libelle = DVD%20films
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre","libelle":"Aventures"}
+INPUT brut : 
+Filtrage sur libelle = Aventures
+GET reçu : {"table":"public","libelle":"Adultes"}
+INPUT brut : 
+Filtrage sur libelle = Adultes
+GET reçu : {"table":"rayon","libelle":"Magazines"}
+INPUT brut : 
+Filtrage sur libelle = Magazines
+GET reçu : {"table":"genre","libelle":"Bande%20dessin%C3%A9e"}
+INPUT brut : 
+Filtrage sur libelle = Bande%20dessin%C3%A9e
+GET reçu : {"table":"genre","libelle":"Bande+dessin%C3%A9e%0A"}
+INPUT brut : 
+Filtrage sur libelle = Bande+dessin%C3%A9e%0A
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"public","libelle":"Jeunesse"}
+INPUT brut : 
+Filtrage sur libelle = Jeunesse
+GET reçu : {"table":"rayon","libelle":"Beaux%20Livres"}
+INPUT brut : 
+Filtrage sur libelle = Beaux%20Livres
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 
+GET reçu : {"table":"public"}
+INPUT brut : 
+GET reçu : {"table":"rayon"}
+INPUT brut : 
+GET reçu : {"table":"genre"}
+INPUT brut : 

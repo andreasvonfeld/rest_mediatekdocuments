@@ -69,6 +69,7 @@ class Connexion {
                 return null;
             }
         }catch(Exception $e){
+            error_log("❌ Erreur SQL : " . $e->getMessage());
             return null;
         }
     }

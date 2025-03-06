@@ -1,4 +1,6 @@
 <?php
+
+
 /*
  * Index.php : point d'entrée de l'API
  * - contrôle l'authentification
@@ -8,6 +10,8 @@
  */
 include_once ("Url.php");
 include_once("Controle.php");
+
+
 
 // crée l'objet d'accès aux informations de l'URL qui sollicite l'API
 $url = Url::getInstance();

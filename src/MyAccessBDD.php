@@ -45,7 +45,7 @@ class MyAccessBDD extends AccessBDD {
             case "rayon" :
             case "etat" :
                 // select portant sur une table contenant juste id et libelle
-                return $this->selectTableSimple($table);
+                return $this->selectTableSimple($table, $champs);
             case "" :
                 // return $this->uneFonction(parametres);
             default:
@@ -63,13 +63,41 @@ class MyAccessBDD extends AccessBDD {
      */	
     protected function traitementInsert(string $table, ?array $champs) : ?int{
         switch($table){
-            case "" :
-                // return $this->uneFonction(parametres);
+            case "document" :
+                return $this->insertDocument($champs); // Ajout d'un document
             default:                    
                 // cas général
                 return $this->insertOneTupleOneTable($table, $champs);	
         }
     }
+    
+    /**
+ * Insère un document dans la table "document"
+ * @param array|null $champs
+ * @return int|null ID du document inséré ou null en cas d'erreur
+ */
+private function insertDocument(?array $champs): ?int {
+    file_put_contents("log_insertDocument.txt", file_get_contents("php://input") . "\n", FILE_APPEND);
+    if (empty($champs)) {
+        return null;
+    }
+
+    if (!isset($champs['titre'])) {
+        return null; // Vérifie que les champs obligatoires sont bien présents
+    }
+
+    // Création de la requête SQL d'insertion
+    $requete = "INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)";
+
+    file_put_contents("log_insertDocument.txt", "Exécution de la requête SQL : " . $requete . "\nDonnées utilisées : " . json_encode($champs) . "\n", FILE_APPEND);
+    $result = $this->conn->updateBDD($requete, $champs);
+    file_put_contents("log_insertDocument.txt", "Résultat de l'insertion : " . ($result ? "SUCCÈS" : "ÉCHEC") . "\n", FILE_APPEND);
+
+
+    return $result ? $champs['id'] : null; // Retourne l'ID inséré ou null si échec
+}
+
     
     /**
      * demande de modification (update)
@@ -115,7 +143,7 @@ class MyAccessBDD extends AccessBDD {
     private function selectTuplesOneTable(string $table, ?array $champs) : ?array{
         if(empty($champs)){
             // tous les tuples d'une table
-            $requete = "select * from $table;";
+            $requete = "select * from $table;";           
             return $this->conn->queryBDD($requete);  
         }else{
             // tuples spécifiques d'une table
@@ -123,8 +151,7 @@ class MyAccessBDD extends AccessBDD {
             foreach ($champs as $key => $value){
                 $requete .= "$key=:$key and ";
             }
-            // (enlève le dernier and)
-            $requete = substr($requete, 0, strlen($requete)-5);	          
+            $requete = substr($requete, 0, strlen($requete)-5);	         
             return $this->conn->queryBDD($requete, $champs);
         }
     }	
@@ -163,7 +190,7 @@ class MyAccessBDD extends AccessBDD {
      * @param array|null $champs 
      * @return int|null nombre de tuples modifiés (0 ou 1) ou null si erreur
      */	
-    private function updateOneTupleOneTable(string $table, ?string $id, ?array $champs) : ?int {
+    private function updateOneTupleOneTable(string $table, ?string $id, ?array $champs) : ?int {            
         if(empty($champs)){
             return null;
         }
@@ -178,8 +205,9 @@ class MyAccessBDD extends AccessBDD {
         // (enlève la dernière virgule)
         $requete = substr($requete, 0, strlen($requete)-1);				
         $champs["id"] = $id;
-        $requete .= " where id=:id;";		
-        return $this->conn->updateBDD($requete, $champs);	        
+        $requete .= " where id=:id;";	
+        return $this->conn->updateBDD($requete, $champs);
+        
     }
     
     /**
@@ -203,13 +231,14 @@ class MyAccessBDD extends AccessBDD {
     }
  
     /**
-     * récupère toutes les lignes d'une table simple (qui contient juste id et libelle)
-     * @param string $table
-     * @return array|null
-     */
-    private function selectTableSimple(string $table) : ?array{
-        $requete = "select * from $table order by libelle;";		
-        return $this->conn->queryBDD($requete);	    
+    * Récupère toutes les lignes d'une table simple ou un seul élément filtré par libelle
+    * @param string $table
+    * @param array|null $champs
+    * @return array|null
+    */
+    private function selectTableSimple(string $table, ?array $champs = null) : ?array{
+        $requete = "SELECT * FROM $table ORDER BY libelle;";
+        return $this->conn->queryBDD($requete);	 	    
     }
     
     /**
