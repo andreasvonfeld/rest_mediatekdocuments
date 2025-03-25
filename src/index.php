@@ -12,6 +12,7 @@ include_once ("Url.php");
 include_once("Controle.php");
 
 
+file_put_contents("log_debug.txt", print_r($_GET, true) . "\n", FILE_APPEND);
 
 // crée l'objet d'accès aux informations de l'URL qui sollicite l'API
 $url = Url::getInstance();
@@ -27,6 +28,8 @@ if (!$url->authentification()){
     $methodeHTTP = $url->recupMethodeHTTP();
     //récupère les données passées dans l'url (visibles ou cachées)
     $table = $url->recupVariable("table");
+    file_put_contents("log_index.txt", "Requête reçue : " . $table . "\n", FILE_APPEND);
+
     $id = $url->recupVariable("id");
     $champs = $url->recupVariable("champs", "json");
     // demande au controleur de traiter la demande

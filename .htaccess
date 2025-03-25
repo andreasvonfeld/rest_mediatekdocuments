@@ -17,3 +17,6 @@ RewriteRule ^([a-zA-Z0-9_]+)$ src/index.php?table=$1 [B,QSA,L]
 RewriteCond %{REQUEST_METHOD} =DELETE
 RewriteRule ^([a-zA-Z0-9_]+)/(.+)$ src/index.php?table=$1&champs=$2 [B,QSA,L]
 
+#GET avec plusieurs arguments
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)$ src/index.php?table=$1/$2 [B,L]

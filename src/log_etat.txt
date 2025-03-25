@@ -1,0 +1,75 @@
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaires | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":"47","idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":"47","idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":"47","idEtat":"00002"}
+🔧 Requête update par numéro → {"numero":"47","idEtat":"00002"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":47,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":47,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":47,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":47,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":47,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":47,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: document | id: 00007 | champs: {"titre":"Dans les coulisses du mus\u00e9e 2","image":"","idRayon":"LV001","idGenre":"10006","idPublic":"00003"}
+🔎 traitementUpdate reçu → table: document | id: 00007 | champs: {"id":"Dans les coulisses du mus\u00e9e 2"}
+🔎 traitementUpdate reçu → table: livre | id: 00007 | champs: {"isbn":"6541236987541","auteur":"Kate Atkinson","collection":""}
+🔎 traitementUpdate reçu → table: document | id: 00007 | champs: {"titre":"Dans les coulisses du mus\u00e9e","image":"","idRayon":"LV001","idGenre":"10006","idPublic":"00003"}
+🔎 traitementUpdate reçu → table: document | id: 00007 | champs: {"id":"Dans les coulisses du mus\u00e9e"}
+🔎 traitementUpdate reçu → table: livre | id: 00007 | champs: {"isbn":"6541236987541","auteur":"Kate Atkinson","collection":""}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":47,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":47,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":47,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":47,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":50,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":50,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":50,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":50,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":50,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":50,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":50,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":50,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":21,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":21,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: abonnement | id: 70 | champs: {"dateFinAbonnement":"2025-03-25T17:52:18.1060784+01:00"}
+🔎 traitementUpdate reçu → table: commande | id: 70 | champs: {"montant":2}
+🔎 traitementUpdate reçu → table: abonnement | id: 80 | champs: {"dateFinAbonnement":"2025-03-25T17:54:36.5492081+01:00"}
+🔎 traitementUpdate reçu → table: commande | id: 80 | champs: {"montant":3}
