@@ -1,10 +1,17 @@
 RewriteEngine on
+
+# Redirection vers une erreur 400 si aucune table n'est précisée
+RewriteCond %{REQUEST_URI} ^/?$  [NC]
+RewriteRule ^.*$ - [R=400,L]
+
 RewriteCond %{REQUEST_METHOD} =GET
 RewriteRule ^([a-zA-Z0-9_]+)$ src/index.php?table=$1 [B,L]
 RewriteCond %{REQUEST_METHOD} =GET
 RewriteRule ^([a-zA-Z0-9_]+)/({.*})$ src/index.php?table=$1&champs=$2 [B,L]
+
 RewriteCond %{REQUEST_METHOD} =POST
 RewriteRule ^([a-zA-Z0-9_]+)$ src/index.php?table=$1 [B,L]
+
 RewriteCond %{REQUEST_METHOD} =PUT
 RewriteRule ^([a-zA-Z0-9_]+)$ src/index.php?table=$1 [B,L]
 RewriteCond %{REQUEST_METHOD} =PUT
@@ -13,7 +20,6 @@ RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9]+)$ src/index.php?table=$1&id=$2 [B,L]
 
 RewriteCond %{REQUEST_METHOD} =DELETE
 RewriteRule ^([a-zA-Z0-9_]+)$ src/index.php?table=$1 [B,QSA,L]
-
 RewriteCond %{REQUEST_METHOD} =DELETE
 RewriteRule ^([a-zA-Z0-9_]+)/(.+)$ src/index.php?table=$1&champs=$2 [B,QSA,L]
 

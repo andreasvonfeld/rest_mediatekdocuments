@@ -73,3 +73,19 @@
 🔎 traitementUpdate reçu → table: commande | id: 70 | champs: {"montant":2}
 🔎 traitementUpdate reçu → table: abonnement | id: 80 | champs: {"dateFinAbonnement":"2025-03-25T17:54:36.5492081+01:00"}
 🔎 traitementUpdate reçu → table: commande | id: 80 | champs: {"montant":3}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":48,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":48,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":48,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":48,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: document | id: 00017 | champs: {"titre":"Catastrophes au Br\u00e9sil 2","image":"C:\\Users\\Andr\u00e9as\\Downloads\\91fQGSqEslL._AC_UF1000,1000_QL80_.jpg","idRayon":"JN002","idGenre":"10014","idPublic":"00004"}
+🔎 traitementUpdate reçu → table: document | id: 00017 | champs: {"id":"Catastrophes au Br\u00e9sil 2"}
+🔎 traitementUpdate reçu → table: livre | id: 00017 | champs: {"isbn":"","auteur":"Philippe Masson","collection":""}
+🔎 traitementUpdate reçu → table: document | id: 00017 | champs: {"titre":"Catastrophes au Br\u00e9sil","image":"C:\\Users\\Andr\u00e9as\\Downloads\\91fQGSqEslL._AC_UF1000,1000_QL80_.jpg","idRayon":"JN002","idGenre":"10014","idPublic":"00004"}
+🔎 traitementUpdate reçu → table: document | id: 00017 | champs: {"id":"Catastrophes au Br\u00e9sil"}
+🔎 traitementUpdate reçu → table: livre | id: 00017 | champs: {"isbn":"","auteur":"Philippe Masson","collection":""}
+🔎 traitementUpdate reçu → table: suivi | id: 00080 | champs: {"id":"00080","stade":"livr\u00e9e","idLivreDvd":"00002"}
+🔎 traitementUpdate reçu → table: suivi | id: 00080 | champs: {"id":"00080","stade":"r\u00e9gl\u00e9e","idLivreDvd":"00002"}
+🔎 traitementUpdate reçu → table: suivi | id: 00080 | champs: {"id":"00080","stade":"livr\u00e9e","idLivreDvd":"00002"}
+🔎 traitementUpdate reçu → table: suivi | id: 00081 | champs: {"id":"00081","stade":"livr\u00e9e","idLivreDvd":"00019"}
