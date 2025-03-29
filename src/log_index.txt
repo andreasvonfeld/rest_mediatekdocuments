@@ -23805,3 +23805,14 @@ Requête reçue : revue
 Requête reçue : genre
 Requête reçue : public
 Requête reçue : rayon
+Requête reçue : livre
+Requête reçue : livre
+Requête reçue : livre
+Requête reçue : livre
+Requête reçue : livre
+Requête reçue : document
+Requête reçue : document
+Requête reçue : document
+Requête reçue : document
+Requête reçue : document
+Requête reçue : document

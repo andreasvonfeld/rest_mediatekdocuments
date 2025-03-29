@@ -612,3 +612,33 @@ Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPubl
                 VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
 Données utilisées : {"id":"3242","titre":"test5","idRayon":"BL001","idPublic":"00002","idGenre":"10012","image":""}
 Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%22999%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"999","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%22999%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"999","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%227777%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"7777","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%227777%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"7777","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : ÉCHEC
+champs=%7B%22id%22%3A%227777%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"7777","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : SUCCÈS
+champs=%7B%22id%22%3A%227777%22%2C%22titre%22%3A%20%22Mon%20Nouveau%20Document%22%2C%0A%20%20%20%20%22idRayon%22%3A%20%22LV002%22%2C%0A%20%20%20%20%22idPublic%22%3A%20%2200003%22%2C%0A%20%20%20%20%22idGenre%22%3A%20%2210002%22%2C%0A%20%20%20%20%22image%22%3A%20%22https%3A%2F%2Fexemple.com%2Fimage.jpg%22%7D
+Exécution de la requête SQL : INSERT INTO document (id, titre, idRayon, idPublic, idGenre, image) 
+                VALUES (:id, :titre, :idRayon, :idPublic, :idGenre, :image)
+Données utilisées : {"id":"7777","titre":"Mon Nouveau Document","idRayon":"LV002","idPublic":"00003","idGenre":"10002","image":"https:\/\/exemple.com\/image.jpg"}
+Résultat de l'insertion : ÉCHEC

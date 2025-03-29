@@ -4,9 +4,14 @@ header('Content-Type: application/json');
 include_once("MyAccessBDD.php");
 
 /**
- * Contrôleur : reçoit et traite les demandes du point d'entrée
+ * Contrôleur principal de l'API REST.
+ *
+ * Cette classe reçoit et traite les requêtes du point d'entrée (index.php),
+ * en appelant les méthodes nécessaires pour accéder aux données via MyAccessBDD.
+ *
+ * @package rest_mediatekdocuments
  */
-class Controle{
+class Controle {
 	
     /**
      * 
