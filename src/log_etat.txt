@@ -89,3 +89,53 @@
 🔎 traitementUpdate reçu → table: suivi | id: 00080 | champs: {"id":"00080","stade":"r\u00e9gl\u00e9e","idLivreDvd":"00002"}
 🔎 traitementUpdate reçu → table: suivi | id: 00080 | champs: {"id":"00080","stade":"livr\u00e9e","idLivreDvd":"00002"}
 🔎 traitementUpdate reçu → table: suivi | id: 00081 | champs: {"id":"00081","stade":"livr\u00e9e","idLivreDvd":"00019"}
+🔎 traitementUpdate reçu → table: suivi | id: 00021 | champs: {"id":"00021","stade":"r\u00e9gl\u00e9e","idLivreDvd":"20003"}
+🔎 traitementUpdate reçu → table: suivi | id: 00001 | champs: {"id":"00001","stade":"livr\u00e9e","idLivreDvd":"00017"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3244,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":3244,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: suivi | id: 00010 | champs: {"id":"00010","stade":"livr\u00e9e","idLivreDvd":"20003"}
+🔎 traitementUpdate reçu → table: suivi | id: 00011 | champs: {"id":"00011","stade":"livr\u00e9e","idLivreDvd":"20002"}
+🔎 traitementUpdate reçu → table: suivi | id: 00002 | champs: {"id":"00002","stade":"livr\u00e9e","idLivreDvd":"00008"}
+🔎 traitementUpdate reçu → table: suivi | id: 00001 | champs: {"id":"00001","stade":"r\u00e9gl\u00e9e","idLivreDvd":"00017"}
+🔎 traitementUpdate reçu → table: suivi | id: 00011 | champs: {"id":"00011","stade":"r\u00e9gl\u00e9e","idLivreDvd":"20002"}
+🔎 traitementUpdate reçu → table: suivi | id: 00012 | champs: {"id":"00012","stade":"livr\u00e9e","idLivreDvd":"20004"}
+🔎 traitementUpdate reçu → table: document | id: 00123 | champs: {"titre":"Test2","image":"C:\\Users\\Andr\u00e9as\\Downloads\\9782080418890.jpg","idRayon":"LV002","idGenre":"10003","idPublic":"00004"}
+🔎 traitementUpdate reçu → table: document | id: 00123 | champs: {"id":"Test2"}
+🔎 traitementUpdate reçu → table: livre | id: 00123 | champs: {"isbn":"23233232","auteur":"Test2","collection":"Test2"}
+🔎 traitementUpdate reçu → table: document | id: 00123 | champs: {"titre":"Livre2","image":"C:\\Users\\Andr\u00e9as\\Downloads\\9782080418890.jpg","idRayon":"BL001","idGenre":"10003","idPublic":"00004"}
+🔎 traitementUpdate reçu → table: document | id: 00123 | champs: {"id":"Livre2"}
+🔎 traitementUpdate reçu → table: livre | id: 00123 | champs: {"isbn":"244242442","auteur":"Auteur2","collection":"Collection2"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3245,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":3245,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3245,"idEtat":"00001"}
+🔧 Requête update par numéro → {"numero":3245,"idEtat":"00001"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: document | id: 21112 | champs: {"titre":"Dvd2","image":"C:\\Users\\Andr\u00e9as\\Downloads\\9782080418890.jpg","idRayon":"JN002","idGenre":"10012","idPublic":"00004"}
+🔎 traitementUpdate reçu → table: document | id: 21112 | champs: {"id":"Dvd2"}
+🔎 traitementUpdate reçu → table: dvd | id: 21112 | champs: {"synopsis":"Synopsis2","realisateur":"R\u00e9alisateur2","duree":"150"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3249,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":3249,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3249,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":3249,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: document | id: 11223 | champs: {"titre":"Revue2","image":"C:\\Users\\Andr\u00e9as\\Downloads\\9782080418890.jpg","idRayon":"PR002","idGenre":"10016","idPublic":"00002"}
+🔎 traitementUpdate reçu → table: revue | id: 11223 | champs: {"periodicite":"MS","delaiMiseADispo":32}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3242,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":3242,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: suivi | id: 00120 | champs: {"id":"00120","stade":"relanc\u00e9e","idLivreDvd":"00018"}
+🔎 traitementUpdate reçu → table: suivi | id: 00120 | champs: {"id":"00120","stade":"livr\u00e9e","idLivreDvd":"00018"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3263,"idEtat":"00004"}
+🔧 Requête update par numéro → {"numero":3263,"idEtat":"00004"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: suivi | id: 00120 | champs: {"id":"00120","stade":"r\u00e9gl\u00e9e","idLivreDvd":"00018"}
+🔎 traitementUpdate reçu → table: suivi | id: 00121 | champs: {"id":"00121","stade":"livr\u00e9e","idLivreDvd":"00019"}
+🔎 traitementUpdate reçu → table: suivi | id: 00014 | champs: {"id":"00014","stade":"relanc\u00e9e","idLivreDvd":"20001"}
+🔎 traitementUpdate reçu → table: suivi | id: 00014 | champs: {"id":"00014","stade":"livr\u00e9e","idLivreDvd":"20001"}
+🔎 traitementUpdate reçu → table: exemplaire | id: numero | champs: {"numero":3267,"idEtat":"00003"}
+🔧 Requête update par numéro → {"numero":3267,"idEtat":"00003"}
+📌 SQL = UPDATE exemplaire SET idEtat = :idEtat WHERE numero = :numero
+🔎 traitementUpdate reçu → table: suivi | id: 00014 | champs: {"id":"00014","stade":"r\u00e9gl\u00e9e","idLivreDvd":"20001"}
